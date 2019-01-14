@@ -25,7 +25,7 @@ def getSuite():
     sharemsg_test_cases = unittest.TestLoader().loadTestsFromTestCase(ShareMsg)
     sharemoment_test_cases = unittest.TestLoader().loadTestsFromTestCase(ShareMoment)
     sharetoQQ_test_cases = unittest.TestLoader().loadTestsFromTestCase(ShareToQQ)
-    webview_test_cases = unittest.TestLoader().loadTestsFromTestCase(WebView)
+#    webview_test_cases = unittest.TestLoader().loadTestsFromTestCase(WebView)
     suite = unittest.TestSuite()
     #suite.addTests([login_test_cases,])
     suite.addTests([loginPremission_test_cases,login_test_cases,\
